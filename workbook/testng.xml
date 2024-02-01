@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Suite">
+<parameter name="first-name1"  value="demo"/>
+  <test name="Test">
+  <parameter name="first-name"  value="Cedric"/>
+    <classes>
+    <!--<class name="com.orangehrm.LoginTest"/>
+        <class name="com.orangehrm.LoginTest2"/>
+      <class name="com.orangehrm.LoginTest3"/>  -->
+      <class name="com.carwale.examples.SearchProduct"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
